@@ -1,0 +1,422 @@
+********************************************
+*                                          *
+*             TOSSIM Script                *
+*                                          *
+********************************************
+Initializing mac...
+Initializing radio channels....
+('    using topology file:', 'topology.txt')
+('    using noise file:', 'meyer-heavy.txt')
+Initializing simulator....
+Activate debug message on channel Boot
+Activate debug message on channel Radio
+Activate debug message on channel Pairing
+Activate debug message on channel ALARM
+Creating node 1...
+('>>>Will boot at time', 0L, '[sec]')
+Creating node 2...
+('>>>Will boot at time', 0L, '[sec]')
+Creating node 3...
+('>>>Will boot at time', 0L, '[sec]')
+Creating node 4...
+('>>>Will boot at time', 0L, '[sec]')
+Creating radio channels...
+('>>>Setting radio channel from node ', '1', ' to node ', '2', ' with gain ', '-60', ' dBm')
+('>>>Setting radio channel from node ', '2', ' to node ', '1', ' with gain ', '-60', ' dBm')
+('>>>Setting radio channel from node ', '3', ' to node ', '4', ' with gain ', '-60', ' dBm')
+('>>>Setting radio channel from node ', '4', ' to node ', '3', ' with gain ', '-60', ' dBm')
+('>>>Setting radio channel from node ', '1', ' to node ', '3', ' with gain ', '-60', ' dBm')
+('>>>Setting radio channel from node ', '3', ' to node ', '1', ' with gain ', '-60', ' dBm')
+('>>>Setting radio channel from node ', '2', ' to node ', '4', ' with gain ', '-60', ' dBm')
+('>>>Setting radio channel from node ', '4', ' to node ', '2', ' with gain ', '-60', ' dBm')
+('>>>Setting radio channel from node ', '1', ' to node ', '4', ' with gain ', '-60', ' dBm')
+('>>>Setting radio channel from node ', '4', ' to node ', '1', ' with gain ', '-60', ' dBm')
+('>>>Setting radio channel from node ', '3', ' to node ', '2', ' with gain ', '-60', ' dBm')
+('>>>Setting radio channel from node ', '2', ' to node ', '3', ' with gain ', '-60', ' dBm')
+Initializing Closest Pattern Matching (CPM)...
+('Reading noise model data file:', 'meyer-heavy.txt')
+Loading:
+##Done!
+('>>>Creating noise model for node:', 1)
+('>>>Creating noise model for node:', 2)
+('>>>Creating noise model for node:', 3)
+('>>>Creating noise model for node:', 4)
+Start simulation with TOSSIM! 
+
+
+
+DEBUG (1): Started node 1 with key f7cgqmLb9apmQCmEU2xv.
+DEBUG (4): Started node 4 with key Q3KyyzejJqmHIMbzGx44.
+DEBUG (3): Started node 3 with key Q3KyyzejJqmHIMbzGx44.
+DEBUG (2): Started node 2 with key f7cgqmLb9apmQCmEU2xv.
+DEBUG (1): Node's Radio ready
+DEBUG (1): Pairing phase started
+DEBUG (2): Node's Radio ready
+DEBUG (2): Pairing phase started
+DEBUG (4): Node's Radio ready
+DEBUG (4): Pairing phase started
+DEBUG (3): Node's Radio ready
+DEBUG (3): Pairing phase started
+DEBUG (1): sending Pairing broadcast request
+DEBUG (3): sending Pairing broadcast request
+DEBUG (4): sending Pairing broadcast request
+DEBUG (2): sending Pairing broadcast request
+DEBUG (2): Received message of type 1 from source 3
+DEBUG (2): ...message discarded
+DEBUG (1): Received message of type 1 from source 3
+DEBUG (1): ...message discarded
+DEBUG (4): Received message of type 1 from source 3
+DEBUG (4): sending FOUND to 3
+DEBUG (3): Received message of type 3 from source 4
+DEBUG (3): Pairing stopped on FOUND received
+DEBUG (2): Received message of type 1 from source 1
+DEBUG (4): Received message of type 1 from source 1
+DEBUG (4): ...message discarded
+DEBUG (3): Received message of type 1 from source 1
+DEBUG (3): ...message discarded
+DEBUG (2): sending FOUND to 1
+DEBUG (1): Received message of type 3 from source 2
+DEBUG (1): Pairing stopped on FOUND received
+DEBUG (2): sending Pairing broadcast request
+DEBUG (4): sending Pairing broadcast request
+DEBUG (3): Received message of type 1 from source 2
+DEBUG (3): ...message discarded
+DEBUG (4): Received message of type 1 from source 2
+DEBUG (4): ...message discarded
+DEBUG (1): Received message of type 1 from source 2
+DEBUG (1): sending FOUND to 2
+DEBUG (1): Received message of type 1 from source 4
+DEBUG (1): ...message discarded
+DEBUG (2): Received message of type 1 from source 4
+DEBUG (2): ...message discarded
+DEBUG (3): Received message of type 1 from source 4
+DEBUG (3): sending FOUND to 4
+DEBUG (4): Received message of type 3 from source 3
+DEBUG (4): Pairing stopped on FOUND received
+DEBUG (2): Received message of type 3 from source 1
+DEBUG (2): Pairing stopped on FOUND received
+DEBUG (3): Status: 5, x:84 y:38
+DEBUG (1): Status: 7, x:58 y:31
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 5 @ 84,38
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 7 @ 58,31
+DEBUG (3): Status: 7, x:81 y:89
+DEBUG (1): Status: 6, x:35 y:42
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 7 @ 81,89
+DEBUG (3): Status: 5, x:97 y:54
+DEBUG (1): Status: 7, x:25 y:93
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 7 @ 25,93
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 5 @ 97,54
+DEBUG (3): Status: 7, x:87 y:48
+DEBUG (1): Status: 7, x:33 y:87
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 7 @ 87,48
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 7 @ 33,87
+DEBUG (3): Status: 6, x:9 y:88
+DEBUG (1): Status: 5, x:5 y:51
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 5 @ 5,51
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 6 @ 9,88
+DEBUG (3): Status: 7, x:37 y:36
+DEBUG (1): Status: 7, x:97 y:94
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 7 @ 37,36
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 7 @ 97,94
+DEBUG (3): Status: 7, x:5 y:28
+DEBUG (1): Status: 7, x:18 y:15
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 7 @ 5,28
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 7 @ 18,15
+DEBUG (3): Status: 6, x:41 y:64
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 6 @ 41,64
+DEBUG (1): Status: 7, x:40 y:89
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 7 @ 40,89
+DEBUG (3): Status: 5, x:31 y:76
+DEBUG (1): Status: 5, x:98 y:61
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 5 @ 31,76
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 5 @ 98,61
+DEBUG (3): Status: 7, x:73 y:70
+DEBUG (1): Status: 7, x:95 y:27
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 7 @ 95,27
+DEBUG (3): Status: 7, x:13 y:16
+DEBUG (1): Status: 7, x:69 y:13
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 7 @ 13,16
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 7 @ 69,13
+DEBUG (3): Status: 5, x:8 y:18
+DEBUG (1): Status: 5, x:36 y:88
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 5 @ 8,18
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 5 @ 36,88
+DEBUG (3): Status: 7, x:59 y:81
+DEBUG (1): Status: 5, x:89 y:22
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 7 @ 59,81
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 5 @ 89,22
+DEBUG (3): Status: 5, x:59 y:53
+DEBUG (1): Status: 7, x:82 y:3
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 5 @ 59,53
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 7 @ 82,3
+DEBUG (3): Status: 8, x:40 y:29
+DEBUG (1): Status: 5, x:38 y:76
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 8 @ 40,29
+DEBUG (4): ! - FALLING - ! @40,29
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 5 @ 38,76
+DEBUG (3): Status: 5, x:88 y:89
+DEBUG (1): Status: 7, x:74 y:10
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 5 @ 88,89
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 7 @ 74,10
+DEBUG (3): Status: 8, x:59 y:18
+DEBUG (1): Status: 8, x:71 y:7
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 8 @ 59,18
+DEBUG (4): ! - FALLING - ! @59,18
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 8 @ 71,7
+DEBUG (2): ! - FALLING - ! @71,7
+DEBUG (3): Status: 7, x:99 y:66
+DEBUG (1): Status: 5, x:42 y:55
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 7 @ 99,66
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 5 @ 42,55
+DEBUG (3): Status: 6, x:75 y:67
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 6 @ 75,67
+DEBUG (1): Status: 7, x:35 y:49
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 7 @ 35,49
+DEBUG (3): Status: 6, x:57 y:41
+DEBUG (1): Status: 6, x:48 y:79
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 6 @ 48,79
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 6 @ 57,41
+DEBUG (3): Status: 5, x:71 y:68
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 5 @ 71,68
+DEBUG (1): Status: 5, x:57 y:94
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 5 @ 57,94
+DEBUG (3): Status: 6, x:9 y:53
+DEBUG (1): Status: 5, x:78 y:77
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 5 @ 78,77
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 6 @ 9,53
+DEBUG (3): Status: 5, x:36 y:28
+DEBUG (1): Status: 7, x:80 y:70
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 5 @ 36,28
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 7 @ 80,70
+DEBUG (3): Status: 6, x:93 y:97
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 6 @ 93,97
+DEBUG (1): Status: 6, x:64 y:33
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 6 @ 64,33
+DEBUG (3): Status: 6, x:38 y:90
+DEBUG (1): Status: 7, x:93 y:90
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 7 @ 93,90
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 6 @ 38,90
+DEBUG (3): Status: 6, x:24 y:61
+DEBUG (1): Status: 6, x:97 y:71
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 6 @ 97,71
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 6 @ 24,61
+DEBUG (3): Status: 5, x:81 y:80
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 5 @ 81,80
+DEBUG (1): Status: 6, x:35 y:58
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 6 @ 35,58
+DEBUG (3): Status: 5, x:96 y:47
+DEBUG (1): Status: 5, x:75 y:27
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 5 @ 75,27
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 5 @ 96,47
+DEBUG (3): Status: 6, x:62 y:72
+DEBUG (1): Status: 5, x:16 y:36
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 6 @ 62,72
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 5 @ 16,36
+DEBUG (3): Status: 6, x:71 y:26
+DEBUG (1): Status: 6, x:67 y:71
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 6 @ 71,26
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 6 @ 67,71
+DEBUG (3): Status: 7, x:95 y:48
+DEBUG (1): Status: 8, x:42 y:45
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 7 @ 95,48
+DEBUG (3): Status: 5, x:84 y:78
+DEBUG (1): Status: 5, x:80 y:65
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 5 @ 84,78
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 5 @ 80,65
+DEBUG (3): Status: 5, x:4 y:13
+DEBUG (1): Status: 7, x:5 y:89
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 5 @ 4,13
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 7 @ 5,89
+DEBUG (3): Status: 6, x:80 y:51
+DEBUG (1): Status: 7, x:0 y:20
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 6 @ 80,51
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 7 @ 0,20
+DEBUG (3): Status: 7, x:6 y:91
+DEBUG (1): Status: 6, x:1 y:11
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 7 @ 6,91
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 6 @ 1,11
+DEBUG (3): Status: 7, x:39 y:58
+DEBUG (1): Status: 7, x:91 y:0
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 7 @ 39,58
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 7 @ 91,0
+DEBUG (3): Status: 6, x:61 y:85
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 6 @ 61,85
+DEBUG (1): Status: 5, x:64 y:17
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 5 @ 64,17
+DEBUG (3): Status: 8, x:25 y:21
+DEBUG (1): Status: 6, x:85 y:78
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 6 @ 85,78
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 8 @ 25,21
+DEBUG (4): ! - FALLING - ! @25,21
+DEBUG (3): Status: 5, x:20 y:58
+DEBUG (1): Status: 6, x:79 y:11
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 6 @ 79,11
+DEBUG (3): Status: 6, x:27 y:17
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 6 @ 27,17
+DEBUG (1): Status: 7, x:54 y:70
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 7 @ 54,70
+DEBUG (3): Status: 5, x:52 y:62
+DEBUG (1): Status: 5, x:98 y:53
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 5 @ 52,62
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 5 @ 98,53
+DEBUG (3): Status: 5, x:41 y:66
+DEBUG (1): Status: 7, x:15 y:82
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 7 @ 15,82
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 5 @ 41,66
+DEBUG (3): Status: 7, x:55 y:7
+DEBUG (1): Status: 7, x:8 y:92
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 7 @ 55,7
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 7 @ 8,92
+DEBUG (3): Status: 7, x:50 y:64
+DEBUG (1): Status: 7, x:47 y:96
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 7 @ 50,64
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 7 @ 47,96
+DEBUG (3): Status: 7, x:13 y:75
+DEBUG (1): Status: 7, x:22 y:29
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 7 @ 13,75
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 7 @ 22,29
+DEBUG (3): Status: 8, x:94 y:81
+DEBUG (1): Status: 5, x:24 y:79
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 8 @ 94,81
+DEBUG (4): ! - FALLING - ! @94,81
+DEBUG (2): Received message of type 2 from source 1
+DEBUG (2): Status Received 5 @ 24,79
+DEBUG (3): Status: 7, x:54 y:73
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 7 @ 54,73
+DEBUG (3): Status: 6, x:74 y:88
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 6 @ 74,88
+DEBUG (3): Status: 6, x:10 y:43
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 6 @ 10,43
+DEBUG (3): Status: 6, x:20 y:51
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 6 @ 20,51
+DEBUG (3): Status: 8, x:9 y:53
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 8 @ 9,53
+DEBUG (4): ! - FALLING - ! @9,53
+DEBUG (3): Status: 7, x:56 y:1
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 7 @ 56,1
+DEBUG (2): ! - MISSING - ! --------- last found @24,79
+DEBUG (3): Status: 6, x:66 y:66
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 6 @ 66,66
+DEBUG (3): Status: 8, x:93 y:88
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 8 @ 93,88
+DEBUG (4): ! - FALLING - ! @93,88
+DEBUG (3): Status: 5, x:42 y:82
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 5 @ 42,82
+DEBUG (3): Status: 5, x:54 y:6
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 5 @ 54,6
+DEBUG (3): Status: 6, x:70 y:12
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 6 @ 70,12
+DEBUG (3): Status: 7, x:5 y:38
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 7 @ 5,38
+DEBUG (3): Status: 7, x:23 y:1
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 7 @ 23,1
+DEBUG (3): Status: 6, x:0 y:21
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 6 @ 0,21
+DEBUG (3): Status: 7, x:69 y:30
+DEBUG (4): Received message of type 2 from source 3
+DEBUG (4): Status Received 7 @ 69,30
+
+
+
+Simulation finished!

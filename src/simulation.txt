@@ -1,0 +1,13 @@
+DEBUG (2): ! - FALLING - ! @79,90
+DEBUG (2): ! - FALLING - ! @93,94
+DEBUG (4): ! - FALLING - ! @16,93
+DEBUG (4): ! - FALLING - ! @31,17
+DEBUG (2): ! - FALLING - ! @27,9
+DEBUG (4): ! - FALLING - ! @73,85
+DEBUG (2): ! - FALLING - ! @21,16
+DEBUG (2): ! - FALLING - ! @22,66
+DEBUG (4): ! - FALLING - ! @0,10
+DEBUG (4): ! - FALLING - ! @68,2
+DEBUG (2): ! - MISSING - ! --------- last found @28,35
+DEBUG (4): ! - FALLING - ! @64,21
+DEBUG (4): ! - FALLING - ! @26,1
